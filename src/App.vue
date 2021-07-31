@@ -93,7 +93,12 @@ export default {
   },
 
   data: () => ({
-    drawer: null
+    drawer: null,
+    alignments: [
+      'start',
+      'center',
+      'end',
+    ],
   }),
 };
 </script>
